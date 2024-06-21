@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" data-inprogress="">
+    <link rel="stylesheet" href="css/estilos.css" data-inprogress="">
+    <script src="js/prefixfree.js"></script>
+    <script src="js/modernizr.js"></script>
+    <title>Petcare-Contactenos</title>
+    <link rel="icon" href="img/logo-petcare.png" />
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    .righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Righteous&display=swap');
+    .rammetto-one-regular {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    body{
+        background-image: url(img/huellas-fondo-amarillo\ transparente.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        margin-left: 1100px;
+        margin-top: -35px;
+    }
+    .menu{
+        margin-left: 75px;
+        margin-top: 25px;
+        word-spacing: 125px;
+        position: relative;
+        font-family: "Righteous", sans-serif;
+        
+    }
+    a:link{
+        color: #1079BF;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #1079BF;
+    }
+    a:hover{
+        color: #5CB8F3;
+    }
+    .equipo{
+        word-spacing: -1px;
+        display: inline;
+    }
+    .fondo2{
+        margin-top: 60%;
+        margin-left: -5%;
+    }
+    .fondo3{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .fondo4{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .titulo1{
+        position: absolute;
+        margin-top: -125%;
+        font-size: 100px;
+        margin-left: 100px;       
+        color: #1079BF;
+        font-family: "Righteous", sans-serif;
+    }
+    .titulo2{
+        position: absolute;
+        margin-top: -55%;
+        font-size: 100px;
+        margin-left: 100px;       
+        color: #1079BF;
+        font-family: "Righteous", sans-serif;
+    }
+    .caja{
+        position: absolute;
+        background-color: #1079BF;
+        color: white;
+        padding: 2%;
+        border-radius: 40px;
+        width:96% ;
+        height: 40%;
+        margin-left: -1%;
+        font-family: "Righteous", sans-serif;
+        font-size: 30px;
+        margin-top: -30%;
+    }
+    .tel{
+        position: absolute;
+        color: white;
+        font-family: "Righteous", sans-serif;
+        font-size: 30px;
+        margin-top: -28%;
+        margin-left:37%;
+    }
+    .gmail{
+        position: absolute;
+        color: white;
+        font-family: "Righteous", sans-serif;
+        font-size: 30px;
+        margin-top: -28%;
+        margin-left:70%;
+    }
+    .perrito1{
+        position: absolute;
+        margin-top: -59%;
+        margin-left: 54%;
+    }
+    .texto1{
+        position: absolute;
+        text-align: center;
+        margin-left: 1%;
+        color: #1079BF;
+        margin-top: -3%;
+        font-family: "Righteous", sans-serif;
+        font-size: 30px;
+
+    }
+    .mapa{
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+    .perroygato{
+        position: absolute;
+        margin-top: 10%;
+        margin-left: -1%;
+    }
+    .amarillo{
+        position: absolute ;
+        margin-top: 63%;
+
+    }
+    .linea{
+        position: absolute;
+        color: white;
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+    .horario{
+        position: absolute;
+        color: white;
+        font-family: "Righteous", sans-serif;
+        font-size: 30px;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+    .redes{
+        position: absolute;
+        color: white;
+        font-family: "Righteous", sans-serif;
+        font-size: 30px;
+        margin-top: 20%;
+        margin-left: 55%;
+    }
+    .footer{
+        position: absolute;
+        background-color: #BBE1FA;
+        margin-top: -1%;
+        width: 99.3%;
+        height: 20%;
+        font-family: "Righteous", sans-serif;
+    }
+    .formulario{
+        position: absolute;
+        background-color: #5CB8F3;
+        margin-top: 10%;
+        margin-left: 7%;
+        width: 60%;
+        height: 50%;
+        border-radius: 40px;
+        padding: 8%;
+        font-family: "Righteous", sans-serif;
+    }
+    #Nombre{
+        border-radius: 20px;
+        width:350px ; height: 45px;
+        font-family: "Righteous", sans-serif;
+        font-size: 20px;
+    }
+    #Numero{
+        border-radius: 20px;
+        margin-left: 20%;
+        width:350px ; height: 45px;
+        font-family: "Righteous", sans-serif;
+        font-size: 20px;
+    }
+    #Email{
+        border-radius: 20px;
+        width:219% ; height: 45px;
+        font-family: "Righteous", sans-serif;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    #Mensaje{
+        border-radius: 20px;
+        width:219% ; height: 150px;
+        font-family: "Righteous", sans-serif;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    #Enviar{
+        border-radius: 20px;
+        margin-left: 93.5%;
+        width:120px ; height: 45px;
+        font-family: "Righteous", sans-serif;
+        font-size: 20px;
+        margin-top: 5%;
+    }
+</style>
+
+<body>
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <nav class="equipo"><a href="equipo_medico.html">Equipo Medico</a></nav>
+        <a href="contactenos.html">Contactenos</a>
+        <a href="testimonios.html">Testimonios</a>
+        <nav class="logo"><img src="img/logo-petcare.png"  width="90%"  height="90%" alt=""></nav>
+    </nav>
+    <div class="formulario">
+        <form action="mailto:lemuswendy919@gmail.com" method="post">
+            <table>
+                <tr>
+                    <td><input type="text" id="Nombre" placeholder="Nombre" ></td>
+                    <td><input type="number" id="Numero" placeholder="Celular" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="Email" placeholder="Correo Electronico" ></td>
+                </tr>
+                <tr>
+                    <td><textarea name="mensaje" id="Mensaje" placeholder="Mensaje" ></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Enviar" id="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <nav class="fondo2"><img src="img/fondo-huellitas-abajo.png" height="100%" width="100.6%" alt=""></nav>
+    <nav class="titulo1">Contáctanos</nav>
+
+    <nav class="titulo2">Encuentranos</nav>
+    <nav class="caja">Dirección
+        <br>
+                  <br>Carrera 45 #123-45
+                  <br>Bogotá, Colombia
+    </nav>
+    <nav class="tel">Teléfono
+        <br>
+                  <br>+57 312 345 471
+    </nav>
+    <nav class="gmail">Correo <br>Electrónico
+        <br>
+                  <br>petcareclinic@gmail.com
+    </nav>
+    <nav class="texto1">Nuestra clínica está convenientemente ubicada en el corazón de Bogotá, en la 
+        Carrera 45, cerca de la Avenida Principal. Disponemos de estacionamiento 
+        gratuito para nuestros clientes. Nos encontrarás fácilmente con la fachada 
+        distintiva de PetCare y nuestro logo acogedor.</nav>
+    <nav class="perrito1"><img src="img/perrito-vendaje-2 1.png" alt="" width="90%"></nav>
+
+    <nav class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.752001599878!2d-74.05458811838302!3d4.704572729802853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aca96850d0b%3A0x52bae0e84885c238!2sCra.%2045%20%23123-45%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1718998883152!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </nav>
+
+    
+    <nav class="perroygato"><img src="img/lindo-mascota-collage-aislado.png" alt="" width="50%"></nav>
+    <nav class="amarillo"><img src="img/fondo amarillo abajo.png" alt="" width="100%"></nav>
+    <nav class="fondo3"><img src="img/fondo-huellitas-arriba.png" height="100%" width="100.6%" alt=""></nav>
+    <nav class="linea"><img src="img/Linea.png" alt="" height="400px"></nav>
+    <nav class="horario">Horarios de Atención:
+<br>
+<br>-Lunes a Viernes: 8:00 AM - 6:00 PM
+<br>-Sábados: 9:00 AM - 4:00 PM
+<br>-Domingos y Festivos: Cerrado</nav>
+<nav class="redes">
+    ¡Síguenos en nuestras redes sociales 
+    <br>para mantenerte al día con noticias, 
+    <br>consejos y ofertas especiales!
+    <br>
+    <br>-Facebook: facebook.com/
+    <br> &nbsp;&nbsp;PetCareColombia
+    <br>-Instagram: instagram.com/
+    <br> &nbsp;&nbsp;PetCareColombia
+    <br>-TikTok: tiktok.com/
+    <br> &nbsp;&nbsp;@PetCareColombia
+    
+    </nav>
+    <nav class="fondo4"><img src="img/fondo-huellitas-abajo.png" height="100%" width="100.6%" alt=""></nav>
+
+    <footer class="footer">
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/facebook.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/whatsapp.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+        <img src="img/logo-petcare.png" alt="" width="100px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/instagram.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/tik-tok.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+        Facebook &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Whatsapp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy;
+        Wendi Lemus - 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Instagram &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Tik Tok
+    </footer>
+</body>
+</html>

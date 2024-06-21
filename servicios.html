@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" data-inprogress="">
+    <link rel="stylesheet" href="css/estilos.css" data-inprogress="">
+    <script src="js/prefixfree.js"></script>
+    <script src="js/modernizr.js"></script>
+    <title>Petcare-Servicios</title>
+    <link rel="icon" href="img/logo-petcare.png" />
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    .righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Righteous&display=swap');
+    .rammetto-one-regular {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    body{
+        background:linear-gradient(#F39449,#F7C831,#F39449);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        position: relative;
+        margin-left: 1100px;    
+        margin-top: -35px;
+    }
+    .menu{
+        margin-left: 75px;
+        margin-top: 25px;
+        word-spacing: 125px;
+        position: relative;
+        font-family: "Righteous", sans-serif;
+    }
+    a:link{
+        color: #1079BF;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #1079BF;
+    }
+    a:hover{
+        color: #5CB8F3;
+    }
+    .equipo{
+        word-spacing: -1px;
+        display: inline;
+    }
+    
+    .perritocongato{
+        margin-top: -7%;
+        margin-left: 50%;
+    }
+    .bienvenido{
+        position: absolute;
+        margin-top: -45%;
+        font-size: 100px;
+        margin-left: 100px;       
+        color: #1079BF;
+        font-family: "Righteous", sans-serif;
+    }
+    .texto1{
+        position: absolute;
+        margin-top: -25%;
+        font-size: 30px;
+        margin-left: 110px;
+        font-family: "Righteous", sans-serif;
+        color: #1079BF;
+    }
+    .fondo2{
+        margin-top: -20px;
+        margin-left: -5%;
+    }
+    .fondo3{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .fondo4{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .fondo5{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .fondo6{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .fondo7{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .fondo8{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+
+    .abajo{
+        position: absolute;
+        margin-top: -50%;
+        margin-left: -5%;
+        width: 104%;
+    }
+    .arriba{
+        position: absolute;
+        margin-top: -59%;
+        margin-left: -5%;
+        width: 104%;
+    }
+ 
+.perritos{
+    position: absolute;
+    margin-top: -60%;
+}
+.titulo1{
+    position: absolute;
+    background-color: #F39449;
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-size: 70px;
+    width: 100%;
+    height: 20%;
+    margin-left:-0.5%;
+    margin-top: -14%;
+    text-align: center;
+    padding-top:1%;
+}
+.texto2{
+    position: absolute;
+    font-family: "Righteous", sans-serif;
+    color: #1079BF;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 24%;
+}
+.perritoygato{
+    position: absolute;
+    margin-top: 20%;
+}
+.titulo2{
+    position: absolute;
+    background-color: #F7C831;
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-size: 70px;
+    width: 100%;
+    height: 20%;
+    margin-left:-0.5%;
+    margin-top: -9%;
+    text-align: center;
+    padding-top:1%;
+}
+.texto3{
+    position: absolute;
+    font-family: "Righteous", sans-serif;
+    color: #1079BF;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 6%;
+}
+.perritovacuna{
+    position: absolute;
+    margin-top: 25%;
+    margin-left:-0.5%;
+    text-align: center;
+}
+.titulo3{
+    position: absolute;
+    background-color: #A8E4C7;
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-size: 70px;
+    width: 100%;
+    height: 20%;
+    margin-left:-0.5%;
+    margin-top: -7%;
+    text-align: center;
+    padding-top:1%;
+}
+.texto4{
+    position: absolute;
+    font-family: "Righteous", sans-serif;
+    color: #1079BF;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 6%;
+}
+.gatito1{
+    position: absolute;
+    margin-top: 30%;
+    margin-left:-0.5%;
+    text-align: center;
+}
+.titulo4{
+    position: absolute;
+    background-color: #5CB8F3;
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-size: 70px;
+    width: 100%;
+    height: 20%;
+    margin-left:-0.5%;
+    margin-top: -7%;
+    text-align: center;
+    padding-top:1%;
+}
+.texto5{
+    position: absolute;
+    font-family: "Righteous", sans-serif;
+    color: #1079BF;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 6%;
+}
+.gatito1{
+    position: absolute;
+    margin-top: 30%;
+    margin-left:-0.5%;
+    text-align: center;
+}
+.titulo5{
+    position: absolute;
+    background-color: #1079BF;
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-size: 70px;
+    width: 100%;
+    height: 20%;
+    margin-left:-0.5%;
+    margin-top: -7%;
+    text-align: center;
+    padding-top:1%;
+}
+.texto6{
+    position: absolute;
+    font-family: "Righteous", sans-serif;
+    color: #1079BF;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 6%;
+}
+.gatito1{
+    position: absolute;
+    margin-top: 30%;
+    margin-left:-0.5%;
+    text-align: center;
+}
+.footer{
+        position: absolute;
+        background-color: #BBE1FA;
+        margin-top:7%;
+        width: 99.3%;
+        height: 20%;
+        font-family: "Righteous", sans-serif;
+    }
+.comida{
+    position: absolute;
+    margin-top: -50%;
+}
+.veterinaria{
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 40%;
+}
+.gatofeo{
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 80%;
+}
+.fiu{
+    margin-top: -60%;
+}
+
+</style>
+
+<body>
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <nav class="equipo"><a href="equipo_medico.html">Equipo Medico</a></nav>
+        <a href="contactenos.html">Contactenos</a>
+        <a href="testimonios.html">Testimonios</a>
+        <nav class="logo"><img src="img/logo-petcare.png"  width="90%"  height="90%" alt=""></nav>
+    </nav>
+    <nav class="perritocongato"><img src="img/perro_encima_gato y circulo.png" height="68%" width="68%" alt=""></nav>
+    <div class="bienvenido">Nuestros <br>servicios</div>
+    <div class="texto1">En PetCare, ofrecemos una 
+                        <br>amplia gama de servicios para 
+                        <br>garantizar la salud y el 
+                        <br>bienestar de tu mascota.</div>
+                        
+    <nav class="fondo2"><img src="img/fondo-huellitas-abajo.png" height="100%" width="100.6%" alt=""></nav>
+    <nav class="arriba"><img src="img/linea arriba.png" height="100%" width="100.6%" alt=""></nav>
+    <nav class="abajo"><img src="img/linea abajo.png" height="100%" width="100.6%" alt=""></nav>
+    
+    <nav class="fiu">
+        <marquee behavior="scroll" direction="left" loop="0" scrollamount="30">
+            <img src="img/fondo comida.png" height="40%" width="40%">
+            <img src="img/veterinaria gato.png" alt="" height="40%" width="40%" >
+            <img src="img/gatofeo.png" alt="" height="40%" width="40%" >
+            <img src="img/peluqueria perrito.png" alt="" height="40%" width="40%" >
+            <img src="img/vacuna perrito.png" alt="" height="42%" width="42%" >
+            <br>
+            <img src="img/texto1.png" height="40%" width="40%" >
+            <img src="img/texto2.png" height="40%" width="40%" >
+            <img src="img/texto3.png" height="40%" width="40%" >
+            <img src="img/texto4.png" height="38%" width="40%" >
+            <img src="img/texto5.png" height="41%" width="42%" >
+        </marquee>
+    </nav>
+
+    <nav class="fondo3"><img src="img/fondo-huellitas-arriba.png" height="50%" width="100.6%" alt=""></nav>
+    <nav class="perritos"><img src="img/retrato-grupo-adorables-cachorros.png" alt="" height="100%" width="100%"></nav>
+    <nav class="titulo1" id="1">Consultas Veterinarias</nav>
+    <nav class="texto2">Nuestras consultas veterinarias incluyen 
+        <br>evaluaciones de salud completas, diagnóstico y 
+        <br>tratamiento de enfermedades. Los veterinarios de 
+        <br>PetCare están capacitados para ofrecer 
+        <br>asesoramiento sobre nutrición, comportamiento y 
+        <br>cuidados preventivos, asegurando la salud integral 
+        <br>de tu mascota.</nav>
+    <nav class="perritoygato"><img src="img/gato-domestico-gordito-apoyado-cachorro-marron-acostado-sobre-superficie-blanca 1.png" alt="" height="100%" width="100%"></nav>
+    <nav class="fondo4"><img src="img/fondo-huellitas-abajo.png" height="100%" width="100.6%" alt=""></nav>
+    <nav class="titulo2" id="5">Vacunaciones</nav>
+    <nav class="texto3">Ofrecemos un programa de vacunación completo para
+        <br>todas las etapas de la vida de tu mascota. Nuestras
+        <br>vacunas, desde cachorros hasta adultos, protegen
+        <br>contra enfermedades comunes y graves, siguiendo
+        <br>pautas veterinarias actualizadas.
+    </nav>
+    <nav class="perritovacuna"><img src="img/vacuna perrito2.png" alt="" height="10%" width="50%"></nav>
+    <nav class="fondo5"><img src="img/fondo-huellitas-arriba.png" height="50%" width="100.6%" alt=""></nav>
+    <nav class="titulo3" id="3">Cirugías Menores</nav>
+    <nav class="texto4">Realizamos procedimientos quirúrgicos rutinarios y de
+        <br>emergencia, como esterilizaciones y castraciones. 
+        <br>Nuestro quirófano está equipado con tecnología 
+        <br>moderna y nuestro equipo de veterinarios tiene amplia 
+        <br>experiencia en técnicas quirúrgicas, garantizando la 
+        <br>seguridad y el bienestar de tu mascota durante y
+        <br>después de la cirugía.
+    </nav>
+    <nav class="gatito1"><img src="img/gatito bravo.png" alt="" height="10%" width="50%"></nav>
+    <nav class="fondo6"><img src="img/fondo-huellitas-abajo.png" height="100%" width="100.6%" alt=""></nav>
+    <nav class="titulo4" id="4">Peluquería</nav>
+    <nav class="texto5">Nuestro servicio de peluquería incluye cortes de pelo, 
+        <br>baños, cepillado y cuidado de uñas. Nuestros 
+        <br>estilistas están entrenados para trabajar con
+        <br>diferentes tipos de pelaje y temperamentos, 
+        <br>asegurando que tu mascota se sienta cómoda y salga
+        <br>luciendo lo mejor posible. Ofrecemos tratamientos 
+        <br>especiales para piel sensible y otros cuidados 
+        <br>personalizados.
+    </nav>
+    <nav class="gatito1"><img src="img/perrito peluqueado.png" alt="" height="10%" width="50%"></nav>
+    <nav class="fondo7"><img src="img/fondo-huellitas-arriba.png" height="50%" width="100.6%" alt=""></nav>
+    <nav class="titulo5" id="2">Productos Especializados</nav>
+    <nav class="texto6">En nuestra tienda, encontrarás una variedad de
+        <br>productos especializados, incluyendo alimentos de
+        <br>alta calidad, suplementos nutricionales, juguetes,
+        <br>productos de higiene y medicamentos. Todos nuestros
+        <br>productos son seleccionados cuidadosamente para 
+        <br>garantizar la salud y el bienestar de tu mascota, 
+        <br>ofreciendo soluciones adecuadas para sus 
+        <br>necesidades específicas.
+    </nav>
+    <nav class="gatito1"><img src="img/accesorios.png" alt="" height="100%" width="100%"></nav>
+    <nav class="fondo8"><img src="img/fondo-huellitas-abajo.png" height="100%" width="100.6%" alt=""></nav>
+    <footer class="footer">
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/facebook.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/whatsapp.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+        <img src="img/logo-petcare.png" alt="" width="100px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/instagram.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/tik-tok.png" alt="" width="50px"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+        Facebook &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Whatsapp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy;
+        Wendi Lemus - 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Instagram &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Tik Tok
+    </footer>
+</body>
+</html>
